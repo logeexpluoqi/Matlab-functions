@@ -20,6 +20,7 @@ function plotv3(v_start, v_end, v_size, v_color)
                       v_end(1), v_end(2), v_end(3));
     v_style.MaxHeadSize = 0.3;
     v_style.LineWidth = 1.5;
+    v_style.AutoScale = 'off';
     if nargin > 2
        v_style.LineWidth = v_size;
     end
