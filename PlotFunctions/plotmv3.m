@@ -14,7 +14,7 @@ function plotmv3(m)
     [row, col] = size(m);
     
     if row ~= 3
-       fprintf("error! not 3 dimention");
+       fprintf("error! not 3 dimention\n");
     end
     
     for i=1:col
